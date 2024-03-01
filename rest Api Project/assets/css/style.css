@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Nunito";
+    src: url("../fonts/NunitoSans.ttf");
+}
+
+* {
+    font-family: "Nunito";
+}
+
+/* 
+- Dark Blue (Dark Mode Elements): hsl(209, 23%, 22%)    ||OK
+- Very Dark Blue (Dark Mode Background): hsl(207, 26%, 17%) ||OK
+- Very Dark Blue (Light Mode Text): hsl(200, 15%, 8%) ||OK
+- Dark Gray (Light Mode Input): hsl(0, 0%, 52%)
+- Very Light Gray (Light Mode Background): hsl(0, 0%, 98%) ||OK
+- White (Dark Mode Text & Light Mode Elements): hsl(0, 0%, 100%)|| OK
+*/  
+/* ---------------------------------------------------------------- */
+.bg-d-blue {background-color: hsl(209, 23%, 22%) !important;}   /*Dark Blue*/
+.bg-light-elem {background-color: hsl(0, 0%, 100%) !important;} /*White*/
+/* ---------------------------------------------------------------- */
+.bg-vd-blue {background-color: hsl(207, 26%, 17%) !important;}  /*Very Dark Blue*/
+.bg-l-mode1 {background-color: hsl(0, 0%, 98%) !important;}     /*Light Gray*/
+/* ---------------------------------------------------------------- */
+.txt-light {color: hsl(0, 0%, 100%) !important;}                  /*Dark mode text*/
+.text-l-mode {color: hsl(200, 15%, 8%) !important;}              /*Light mode text*/
+/* ---------------------------------------------------------------- */
+.text-l-modein {
+    /* Light Mode Input */
+    background-color: hsl(0, 0%, 52%) !important;
+}
+
+
+
+.pointer {
+    cursor: pointer;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+a {
+    display: block;
+    text-decoration: none !important;
+}
